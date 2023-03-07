@@ -9,4 +9,6 @@ public class Product
     public string? ImageUrl { get; set; }
     public double Stock { get; set; }
     public DateTime DateRegister { get; set; }
+    public int CategoryId { get; set; }
+    public Category? Category { get; set; }
 }
